@@ -6,10 +6,14 @@ import { PlayerZustand } from "./pages/player-zustand";
 
 export function App() {
   return (
+    // Redux
+
     // <ReduxProvider store={store}>
-    //   <Player />
+    //   <PlayerRedux />
     // </ReduxProvider>
 
+    // Zustand
+    
     <PlayerZustand />
   )
 }
